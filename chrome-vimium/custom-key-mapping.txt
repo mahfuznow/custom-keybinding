@@ -1,0 +1,38 @@
+unmapAll
+
+map ? showHelp
+
+map f LinkHints.activateMode
+map F LinkHints.activateModeToOpenInNewTab
+
+map i scrollUp
+map k scrollDown
+map j scrollLeft
+map l scrollRight
+map u scrollToTop
+map o scrollToBottom
+
+map I goForward 
+map K goBack
+map J previousTab
+map L nextTab
+map H visitPreviousTab
+
+map r reload
+map t createTab
+map T duplicateTab
+map x removeTab
+map X restoreTab
+map p tooglePinTab
+
+map n Vomnibar.activate
+map N Vomnibar.activateInNewTab
+map b Vomnibar.activateBookmarks
+map B Vomnibar.activateBookmarksInNewTab
+map s Vomnibar.activateTabSelection
+
+
+map C copyCurrentUrl
+map v openCopiedUrlInCurrentTab
+map V openCopiedUrlInNewTab
+
