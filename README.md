@@ -20,9 +20,9 @@
 * Startup folder location: `C:\Users\{username}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 * Or, type `shell:startup` in the run window to go to the `Startup` folder
 
-## Create .abk script
+## Create .ahk script
 * See the documentations from the [website](https://www.autohotkey.com/)
 * Or, in the `AutoHotKey` application
 
 ## Create .exe file
-* `AutoHotKey` application provides a tool `convert .abk to .exe`
+* `AutoHotKey` application provides a tool `convert .ahk to .exe`
