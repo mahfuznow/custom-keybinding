@@ -33,6 +33,31 @@ return
   Run, "D:\Program Files\Microsoft VS Code\Code.exe" "%A_ScriptFullPath%"
 return
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Automatic cursor controll;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+toggle:=0
+direction:=0
+ 
+^F4::
+If toggle:=!toggle
+SetTimer, MM, 3000
+else
+SetTimer, MM, Off
+return
+ 
+MM:
+If direction := !direction
+{
+  MouseMove, 0, 200,, R
+  Send, {UP 100}
+}
+else
+{
+  MouseMove, 0, -200,, R
+  Send, {DOWN 100}
+}
+return
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;crop facebook messanger ; medium
